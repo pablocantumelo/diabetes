@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler,MinMaxScaler
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import  accuracy_score
+from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
 import joblib
@@ -23,7 +23,7 @@ def previsao_diabetes(lista_valores_formularios):
 # metodo para calcular a melhor acurácia
 def modelos():
     #
-    # Dicionário para gravar as acuracias
+    # Dicionário para gravar as acuracias e objeto do melhor modelo
     dict_acuracia = {}
     dict_obj = {}
     #
